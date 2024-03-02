@@ -1,1 +1,1 @@
-api_key = "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"
+api_key = "" #add your api key here
