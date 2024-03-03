@@ -1,9 +1,8 @@
 import streamlit as st
 import os
-#from secretkey import api_key
+from secretkey import api_key
 from openai import OpenAI
-import openai
-openai.api_key = os.getenv("OPENAI_API_KEY")
+os.environ["OPENAI_API_KEY"]= os.getenv("OPENAI_API_KEY")
 client = OpenAI()
 
 def generate(name1,name2):
@@ -26,3 +25,4 @@ if st.button("Submit"):
     output = generate(name1,name2)
     st.subheader("Output:")
     st.write(output)
+
