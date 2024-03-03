@@ -16,5 +16,4 @@ jobs:
       env:
         OPENAI_SECRET_KEY: ${{ secrets.OPENAI_SECRET_KEY }}
       run: |
-        echo "Now we can use the OpenAI API with our secret key"
-        # Your commands to use the OpenAI API go here
+        app.py

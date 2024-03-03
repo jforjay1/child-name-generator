@@ -25,4 +25,3 @@ if st.button("Submit"):
     output = generate(name1,name2)
     st.subheader("Output:")
     st.write(output)
-
