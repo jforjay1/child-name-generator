@@ -2,7 +2,7 @@ import streamlit as st
 import os
 #from secretkey import api_key
 from openai import OpenAI
-os.environ["OPENAI_API_KEY"]= st.secrets["api_key"]
+os.environ["OPENAI_API_KEY"]= st.secrets["api_key"] #replace with api_key if running locally
 client = OpenAI()
 
 def generate(name1,name2):
