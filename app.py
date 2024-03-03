@@ -1,8 +1,8 @@
 import streamlit as st
 import os
-from secretkey import api_key
+#from secretkey import api_key
 from openai import OpenAI
-os.environ["OPENAI_API_KEY"]= os.getenv("OPENAI_API_KEY")
+#os.environ["OPENAI_API_KEY"]= os.getenv("OPENAI_API_KEY")
 client = OpenAI()
 
 def generate(name1,name2):
