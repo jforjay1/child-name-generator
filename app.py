@@ -2,7 +2,9 @@ import streamlit as st
 import os
 #from secretkey import api_key
 from openai import OpenAI
-client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
+import openai
+openai.api_key = os.getenv("OPENAI_API_KEY")
+client = OpenAI()
 
 def generate(name1,name2):
     user_content =f"name1={name1},name2={name2}"
