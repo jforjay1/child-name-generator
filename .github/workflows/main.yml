@@ -16,5 +16,4 @@ jobs:
         env:
           OPENAI_SECRET_KEY: ${{ secrets.OPENAI_SECRET_KEY }}
         run: |
-          echo "Using OpenAI secret key"
-          # Replace the next line with your script that uses the OPENAI_SECRET_KEY environment variable
+          echo "OPENAI_API_KEY=${{ secrets.OPENAI_API_KEY }}" >> $GITHUB_ENV
