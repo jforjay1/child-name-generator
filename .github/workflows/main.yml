@@ -1,0 +1,21 @@
+name: Use OpenAI API
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  call-openai-api:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+      
+      - name: Use OpenAI API
+        env:
+          OPENAI_SECRET_KEY: ${{ secrets.OPENAI_SECRET_KEY }}
+        run: |
+          echo "Using OpenAI secret key"
+          # Replace the next line with your script that uses the OPENAI_SECRET_KEY environment variable
+          app.py
