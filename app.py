@@ -16,7 +16,7 @@ def generate(name1,name2):
         )
     return completion.choices[0].message.content
 
-st.title("Child Name Generator")
+st.title("Fusion Name Generator")
 name1 = st.text_input("Dad's Name")
 name2 = st.text_input("Mom's Name")
 
