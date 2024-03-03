@@ -3,7 +3,8 @@
 ## Overview 📖
 The Child Name Generator is a Generative AI based unique project aimed at assisting parents in choosing meaningful names for their children by fusing parts of both parents' names. Unlike traditional naming methods that might randomly mix letters, this application uses advanced Language Models (LLMs) and a custom fine-tuned model to generate names that are not only unique but also carry meaningful connections and cultural significance, particularly with references to Sanskrit.
 
-![634DDE47-AE13-4A7A-9EE5-9DBFDAB26545](https://github.com/jforjay1/child-name-generator/assets/46365760/64d76036-9ca6-442a-bbb9-e9662a15397f)
+
+<img width="960" alt="Screenshot 2024-03-03 at 6 30 19 PM" src="https://github.com/jforjay1/child-name-generator/assets/46365760/b0af59c3-92cb-4023-9f5b-6bd7c819aac4">
 
 
 ## Key Features 🔑
