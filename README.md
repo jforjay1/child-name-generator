@@ -51,13 +51,14 @@ Now, the application should be up and running, ready to generate meaningful name
 
 ## Other Features: Creating Training Data 📊
 
-This part is not spoon feeded, if you are using it then you will have to make some adjustments.
+This part is not spoon-fed, if you are using it then you will have to make some adjustments. ```Names.csv, training_data.csv, training_data.jsonl``` is just for reference.
 
 ### Steps:
 
 - Gather data in 2 columns ```name1``` and ```name2``` and save it as Names.csv.
-- Run each block of code from ```generate_answer.ipynb``` which will also help you understand how training data is prepared.
-- 
+- Run each block of code from ```generate_answer.ipynb``` which will also help you understand how training data is prepared. This will help you generate training data for fine-tuning model.
+- Run ```fine_tuning.ipynb``` to fine-tune gpt-3.5 model to meet your specific needs.
+- Use fine-tuned model in ```app.py``` to achieve desired output.
 
 ## Purpose of the App 🎯
 The Child Name Generator fills a niche but significant need for parents looking for meaningful, culturally rich names for their children. By leveraging advanced AI models and the rich linguistic heritage of Sanskrit, this application provides a modern solution to the age-old desire to name one's child with intention and significance. Whether you're looking for a name that carries a particular meaning or one that creatively combines aspects of both parents' names, this generator offers a thoughtful and innovative approach to a deeply personal decision.
