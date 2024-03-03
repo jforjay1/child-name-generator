@@ -16,4 +16,4 @@ jobs:
       env:
         OPENAI_SECRET_KEY: ${{ secrets.OPENAI_SECRET_KEY }}
       run: |
-        app.py
+        streamlit run app.py
